@@ -1,5 +1,1 @@
-package DataProvider;
-
-public class NewDataProvider {
-
-}
+//This is empty file
