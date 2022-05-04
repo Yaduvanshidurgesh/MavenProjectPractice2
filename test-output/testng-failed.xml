@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AssertionTesting(failed)">
+    <classes>
+      <class name="assertMethodImplementation.Assertion">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="title"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- assertMethodImplementation.Assertion -->
+    </classes>
+  </test> <!-- AssertionTesting(failed) -->
+  <test thread-count="5" name="DataProviderTesting2(failed)">
+    <classes>
+      <class name="DataProvider.TestDataProviders">
+        <methods>
+          <include name="goToFacebook" invocation-numbers="1 2"/>
+          <include name="CloseBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- DataProvider.TestDataProviders -->
+    </classes>
+  </test> <!-- DataProviderTesting2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

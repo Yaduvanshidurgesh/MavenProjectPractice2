@@ -1,0 +1,11 @@
+DataProvider\TestDataProviders.class
+example\com\Dropdown.class
+example\com\BasicsControls.class
+assertMethodImplementation\Assertion.class
+example\com\Alert.class
+DataProvider\DataProviderInteger.class
+example\com\Ex1.class
+DataProvider\DataProviderObjectNewFormat.class
+DataProvider\DataProviderString.class
+com\pdf\reader\PDFReader.class
+DataProvider\DataProviderObject.class
